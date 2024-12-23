@@ -21,7 +21,7 @@ This project aims to provide an intuitive tool that allows users to estimate the
    - Data was collected from specialized car sales websites through **web scraping**:
      - [Coches.net](https://www.coches.net)
      - [Tesla.com](https://www.tesla.com)
-     - [TeslaHunt.com](https://www.teslahunt.com)
+     - [TeslaHunt.io](https://www.teslahunt.io)
 
 2. **Data Processing:**
    - The data was cleaned and processed in a controlled environment.
