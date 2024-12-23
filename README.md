@@ -85,7 +85,7 @@ Follow these steps to run the application locally:
 3. **Install the dependencies:**
    Ensure you have a virtual environment and run:
    ```bash
-   conda env create -f iabd_scraping_env.yml
+   conda env create -f tesla_price_prediction_env.yml
    conda activate tesla_price_prediction_env
    ```
 
