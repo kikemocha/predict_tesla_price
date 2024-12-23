@@ -85,7 +85,8 @@ Follow these steps to run the application locally:
 3. **Install the dependencies:**
    Ensure you have a virtual environment and run:
    ```bash
-   pip install -r requirements.txt
+   conda env create -f iabd_scraping_env.yml
+   conda activate tesla_price_prediction_env
    ```
 
 4. **Run the Streamlit application:**
