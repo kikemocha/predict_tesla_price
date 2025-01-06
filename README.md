@@ -22,6 +22,7 @@ This project aims to provide an intuitive tool that allows users to estimate the
      - [Coches.net](https://www.coches.net)
      - [Tesla.com](https://www.tesla.com)
      - [TeslaHunt.io](https://www.teslahunt.io)
+     - [Autoscout24.es](https://www.autoscout24.es/)
 
 2. **Data Processing:**
    - The data was cleaned and processed in a controlled environment.
