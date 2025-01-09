@@ -99,6 +99,9 @@ Follow these steps to run the application locally:
 
 ---
 
+## EDA and DATA CLENAYING
+
+
 ## Functionality
 
 ### **1. Web Scraping**
