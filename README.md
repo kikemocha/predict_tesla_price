@@ -56,8 +56,10 @@ PREDICT_TESLA_PRICE/
 │   ├── df_tesla_final.csv              # Final scraped data
 │   ├── tesla_coches_combinados.csv     # Tesla car data
 ├── webscrapping/                       # Scripts to extract data from the web
+|   ├── autoscout24.ipynb               # Web scraping from AutoScout24.es
 │   ├── coches_net.ipynb                # Web scraping from Coches.net
 │   ├── df_teslas.csv                   # Extracted data from scraping
+│   ├── tesla_autoscout24.csv           # Extracted data from scraping AutoScout24
 │   ├── tesla_page.ipynb                # Web scraping from Tesla.com
 ├── .gitignore                          # Files and folders to ignore in Git
 ├── 20241128_Proyecto_Tesla.pdf         # Project-related document
@@ -96,6 +98,9 @@ Follow these steps to run the application locally:
    ```
 
 ---
+
+## EDA and DATA CLENAYING
+
 
 ## Functionality
 
