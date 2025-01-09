@@ -56,7 +56,7 @@ PREDICT_TESLA_PRICE/
 │   ├── df_tesla_final.csv              # Final scraped data
 │   ├── tesla_coches_combinados.csv     # Tesla car data
 ├── webscrapping/                       # Scripts to extract data from the web
-|   ├── autoscout24.ipynb               # Web scraping from AutoScout24.com
+|   ├── autoscout24.ipynb               # Web scraping from AutoScout24.es
 │   ├── coches_net.ipynb                # Web scraping from Coches.net
 │   ├── df_teslas.csv                   # Extracted data from scraping
 │   ├── tesla_autoscout24.csv           # Extracted data from scraping AutoScout24
