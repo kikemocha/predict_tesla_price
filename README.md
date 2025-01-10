@@ -109,7 +109,7 @@ The input data was obtained using web scraping scripts located in the `webscrapp
 - **Coches.net**: Tesla cars for sale.
 - **Tesla.com**: Official information about base prices.
 - **TeslaHunt.com**: Listings of second-hand Tesla cars.
-- **Autoocasion24**: Tesla car prices in different countries.
+- **Autoscout24**: Tesla car prices in different countries.
 
 ### **2. Model Training**
 The prediction model was trained with combined and preprocessed data in the `train_model.ipynb` file. The features used include:
