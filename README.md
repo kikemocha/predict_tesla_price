@@ -131,7 +131,45 @@ During the exploratory data analysis (EDA) and data cleaning phase, we encounter
 
 By addressing these challenges, we prepared a clean and reliable dataset that was well-suited for training the machine learning model. The steps and transformations applied are documented in the `data.ipynb` notebook for reference and reproducibility.
 
+### **Graph Analysis**
 
+1. **Mileage Distribution by Car Model**
+   ![Streamlit Interface](assets/EDA/kilometers.png)
+   - The boxplot shows a wide variability in the mileage of different models.
+
+   - Model S has a very broad range of mileage, with values reaching up to 485,000 km, while Model 3 and Model Y have significantly lower mileage on average.
+
+   - Outliers can be observed in models with higher mileage, suggesting the presence of heavily used vehicles in the dataset.
+
+   - This graph is useful for identifying models with higher wear and indicates that some models are used more intensively than others.
+
+2. **Average Price by Year and Model**
+   ![Streamlit Interface](assets/EDA/mean_price_per_model.png)
+   - The line chart reveals an upward trend in the average price of vehicles in recent years, especially notable for newer models like Model S and Model X.
+
+   -- The price increase from 2020 onwards may be related to the introduction of new versions or significant technological improvements.
+
+   - Models like Model 3 show more stable prices over time, possibly because they remain more affordable options within the range.
+
+   - This chart is key to understanding the evolution of vehicle values over time.
+
+3. **Price Distribution by Car Model**
+   ![Streamlit Interface](assets/EDA/models.png)
+   - The histogram indicates that most vehicles are concentrated in the price range between 30,000 and 80,000 euros, especially for Model S and Model 3.
+
+   - A lower frequency of vehicles with prices above 100,000 euros is observed, likely corresponding to luxury versions or special editions.
+
+   - This visualization is useful for identifying the most common price range and could help buyers set realistic expectations about vehicle costs.
+
+4. **Relationship Between Price and Mileage by Model**
+   ![Streamlit Interface](assets/EDA/realtion_price_per_km.png)
+   - The scatter plot shows an inverse relationship between price and mileage; vehicles with higher mileage tend to have lower prices.
+
+   - There is a notable concentration of vehicles with low mileage and high prices, which could indicate newer or better-maintained vehicles.
+
+   - Models like Model X and Model Y appear to maintain high prices even with higher mileage, which may indicate a higher perceived value or better market retention.
+
+   - This graph is valuable for assessing how vehicle usage affects its market value.
 
 ## Functionality
 
