@@ -147,7 +147,7 @@ By addressing these challenges, we prepared a clean and reliable dataset that wa
    ![Streamlit Interface](assets/EDA/mean_price_per_model.png)
    - The line chart reveals an upward trend in the average price of vehicles in recent years, especially notable for newer models like Model S and Model X.
 
-   -- The price increase from 2020 onwards may be related to the introduction of new versions or significant technological improvements.
+   - The price increase from 2020 onwards may be related to the introduction of new versions or significant technological improvements.
 
    - Models like Model 3 show more stable prices over time, possibly because they remain more affordable options within the range.
 
