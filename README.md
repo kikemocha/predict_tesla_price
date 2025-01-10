@@ -99,7 +99,38 @@ Follow these steps to run the application locally:
 
 ---
 
-## EDA and DATA CLENAYING
+### **EDA and Data Cleaning**
+
+During the exploratory data analysis (EDA) and data cleaning phase, we encountered several challenges that required careful handling to ensure a clean and consistent dataset for model training:
+
+1. **Inconsistent Model Names:**
+   - One of the main issues was the inconsistency in how car models were named across the sources. For example:
+     - Some entries simply listed the model as **Model 3**, while others used the full name, such as **Tesla Model Y Long Range AWD**.
+   - To address this, we standardized the model names by extracting the relevant portion (e.g., "Model S," "Model 3," "Model X," "Model Y") and mapping them to a consistent format.
+
+2. **Mileage Format Variations:**
+   - Mileage data was another challenge, as it was represented inconsistently:
+     - In some datasets, mileage was a numerical value.
+     - In others, it was stored as text and included the unit, such as **"12,000 km"** or **"45.000 km"**.
+   - We addressed this by:
+     - Removing the unit (`km`) and commas or dots used as thousand separators.
+     - Converting the cleaned text into numerical format for analysis and normalization.
+
+3. **Missing or Incorrect Data:**
+   - Some entries contained missing values or obviously incorrect data (e.g., a car model with 0 kilometers but a high price).
+   - To handle this:
+     - Missing or erroneous rows were removed if they couldn't be reasonably inferred or filled.
+     - For critical features like mileage or manufacturing year, we imputed missing values where possible using median values or similar entries.
+
+4. **Encoding Categorical Features:**
+   - To make the data usable for the machine learning model, categorical variables such as **color**, **country**, and **model** were encoded using **LabelEncoder**.
+   - This ensured that all features were in a numerical format compatible with the model.
+
+5. **Normalization:**
+   - Since features like mileage and manufacturing year were on different scales, we normalized these numerical values using **MinMaxScaler** to improve model performance.
+
+By addressing these challenges, we prepared a clean and reliable dataset that was well-suited for training the machine learning model. The steps and transformations applied are documented in the `data.ipynb` notebook for reference and reproducibility.
+
 
 
 ## Functionality
