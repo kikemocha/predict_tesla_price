@@ -162,7 +162,7 @@ By addressing these challenges, we prepared a clean and reliable dataset that wa
    - This visualization is useful for identifying the most common price range and could help buyers set realistic expectations about vehicle costs.
 
 4. **Relationship Between Price and Mileage by Model**
-   ![Streamlit Interface](assets/EDA/realtion_price_per_km.png)
+   ![Streamlit Interface](assets/EDA/realtion_price_km.png)
    - The scatter plot shows an inverse relationship between price and mileage; vehicles with higher mileage tend to have lower prices.
 
    - There is a notable concentration of vehicles with low mileage and high prices, which could indicate newer or better-maintained vehicles.
